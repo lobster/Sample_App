@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	  <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+	  <title><%= full_title(yield(:title)) %></title>
       <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico">    
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
 	  <%= javascript_include_tag "application" %>
