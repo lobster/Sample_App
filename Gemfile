@@ -1,7 +1,15 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.7'
+
+# Twitter Bootstrap
+gem 'bootstrap-sass', '2.0.0'
+
+# Postgresql database
 gem 'pg'
+
+# Use Thin web server
+gem 'thin'
 
 group :development, :test do
 	gem 'rspec-rails', '2.10.0'
