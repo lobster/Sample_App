@@ -5,12 +5,19 @@ gem 'rails', '3.2.7'
 # Twitter Bootstrap
 gem 'bootstrap-sass', '2.0.0'
 
+# Encryption gem
+gem 'bcrypt-ruby', '3.0.1'
+
 # Postgresql database
 gem 'pg'
 
 # Use Thin web server
 gem 'thin'
 
+# Annotation gem
+gem 'annotate', '2.5.0', group: :development
+
+# rspec
 group :development, :test do
 	gem 'rspec-rails', '2.10.0'
 end
