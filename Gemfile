@@ -33,7 +33,7 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails', '3.1.5'
 
 group :test do
 	gem 'capybara', '1.1.2'
